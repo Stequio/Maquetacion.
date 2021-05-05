@@ -1,24 +1,54 @@
+body{
+    background: rgb(147, 154, 250);
+}
 
-#titulo {
+#p1 {
+    position: relative;
+    top: 20px;
     background: rgb(255, 255, 255);
     color: black;
     border: 10px solid gray;
     text-align: center;
     margin: auto;
     font-family: Brush Script MT, Brush Script Std, cursive;
-    padding: 20px;
+    padding: 50px;
     font-size: 45px;
     
 }
 
-#subtitulo {
-    background-color: rgb(14, 3, 116);
-    color: rgb(255, 0, 255);
-    border: solid 2px black;
-    width: 900px;
-    text-align: center;
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a:hover{
+    color: black;
+    background: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 251, 0);
+    display: block;
+    padding: 5px 100px;
     margin: auto;
-    margin-top: 20px;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.p2 {
+    position: relative;
+    top: 70px;
+    background: #11005e;
+    border: solid black 2px;
+    width: 900px;
+    margin-bottom: 2px;
+    margin: auto;
+    list-style: none;
+    
 }
 
 h2{
@@ -27,31 +57,17 @@ h2{
     font-weight: bold;
 }
 
-#chico{
-    background: blue;
-    border: solid 4px white;
-    color: white;
-    width: 120px;
-    list-style: none;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 5px;
-    display: inline-block;
-    margin: 300px;
-    margin-top: 30px;
-}
-
-#chica{
-    background: rgb(255, 1, 213);
-    border: solid 4px rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+#contenido{
+    position: relative;
+    top: 120px;
+    background: rgb(0, 255, 255);
+    border: solid 5px rgb(0, 4, 255);
+    padding: auto;
     margin: auto;
-    width: 120px;
-    list-style: none;
+    width: 700px;
+    height: 200px;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 5px;
-    display: inline-block;
-    margin: 100px;
-    margin-top: 30px;
+    padding: 160px;
+    font-size: 60px;
+    font-family: monospace;
 }
